@@ -1,13 +1,35 @@
-# DQL-Project
-The case study involves designing SQL queries and stored procedures for a database containing information about a music store's employees, branches, customers, and transactions. The queries demonstrate skills in:
+# Retail SQL Query Project (DQL)
 
-Filtering data using WHERE clauses with comparison operators, LIKE, IN
-Manipulating strings using functions such as SUBSTRING, CHARINDEX, REPLACE
-Formatting dates using CONVERT and DATENAME
-Creating views
-Aggregate functions like COUNT
-Complex joins between multiple tables
-Stored procedures to encapsulate commonly used logic
-Parameterized stored procedures to accept inputs
-Error handling in stored procedures
-The case allows showcasing SQL skills ranging from basic filtering and joins to more advanced date manipulation, text processing, reusable programmatic elements like views and stored procedures. It's a comprehensive example covering many real-world SQL development needs.
+A SQL case study against a music store database — employees, branches, customers, and transactions. Demonstrates a range of Data Query Language (DQL) techniques from basic filtering to stored procedures.
+
+## Tech Stack
+
+| Tool | Role |
+|---|---|
+| SQL Server | Database engine |
+| T-SQL | Query language |
+
+## What's covered
+
+- **Filtering** — `WHERE` with comparison operators, `LIKE`, `IN`
+- **String functions** — `SUBSTRING`, `CHARINDEX`, `REPLACE`
+- **Date formatting** — `CONVERT`, `DATENAME`
+- **Aggregation** — `COUNT`, `SUM`, `GROUP BY`, `HAVING`
+- **Joins** — Multi-table `INNER JOIN` and `LEFT JOIN`
+- **Views** — Reusable query abstractions
+- **Stored procedures** — Parameterised procedures with error handling
+
+## Files
+
+| File | Description |
+|---|---|
+| `create database.sql` | DDL — schema creation |
+| `DQL.sql` | Main query collection |
+| `Case.docx` | Case study description and requirements |
+
+## Skills demonstrated
+
+- Intermediate to advanced T-SQL query writing
+- Stored procedure design with error handling
+- Schema design and DDL
+- Translating business questions into SQL
